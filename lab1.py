@@ -1,4 +1,4 @@
-def is_monotonic(arr):
+def monoton(arr):
     increasing = decreasing = True
     
     for i in range(1, len(arr)):
